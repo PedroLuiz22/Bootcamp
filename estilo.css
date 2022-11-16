@@ -136,3 +136,79 @@
             margin-top: 50px;
            text-align: center;
         }
+        footer{
+            width: 100%;
+            background-color: #0C70F2;
+        }
+        footer .line_1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        footer ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        } 
+        footer nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px;
+        }
+        footer h5{
+            text-align: center;
+            color: white;
+            font-weight: 800;
+            font-size: 18px;
+            font-family: var(--fonte_padrão);
+            background-color: rgb(31, 24, 24);
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+            margin-bottom: 15px;
+        }
+        footer ul li{
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            font-family: var(--fonte_padrão);
+            margin: 15px 0px 15px 0px;
+            
+        }
+        footer ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        footer ul li a:hover{
+            color: rgb(71, 57, 57); 
+        }
+        footer .endereço{
+            text-align: center;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+            font-family: var(--fonte_padrão);
+            margin: 15px 0px 15px 0px; 
+        }
+        footer .line_2{
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 10px;
+        }
+        footer .line_2 a{
+            font-family: var(--fonte_padrão);
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+            padding: 5px;    
+        }
+        footer .line_2 a:first-child{
+            border-right: 3px solid white;
+        }
+        footer .line_2 a:hover{
+            color: rgb(71, 57, 57); 
+        }
